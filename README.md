@@ -1,7 +1,7 @@
 <h2 align="center">Teste Técnico - Target Sistemas</h2>
 
 <h1 align="center">
-    <img width="600px" alt="TargetSistemas" title="#TargetSistemas" src="" />
+    <img width="600px" alt="TargetSistemas" title="#TargetSistemas" src="https://github.com/freitasbr01/target-sistemas/blob/main/assets/layout.png" />
 </h1>
 
 
