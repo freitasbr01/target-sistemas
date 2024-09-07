@@ -23,7 +23,7 @@ A interface é composta por uma lista clara e organizada de perguntas, com botõ
 
 Link de acesso - <a href="https://technical-test-target.netlify.app/">Teste Técnico</a>
 
-Projeto desenvolvido durante o processo de seleção para a vaga de Estágio na **Target Sistemas**.
+Projeto desenvolvido durante o processo de seleção para a vaga de Estágio - São Paulo na **Target Sistemas**.
 
 
 ---
