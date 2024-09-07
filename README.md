@@ -1,9 +1,8 @@
 <h2 align="center">
-    <img width="192px" alt="TargetSistemas" title="#TargetSistemas" src="https://github.com/freitasbr01/target-sistemas/blob/main/assets/android-chrome-192x192.png" />
-    Teste Técnico - Target Sistemas
+    <img width="100px" alt="TargetSistemas" title="#TargetSistemas" src="https://github.com/freitasbr01/target-sistemas/blob/main/assets/android-chrome-192x192.png" />
 </h2>
 
-<!-- <h2 align="center">Teste Técnico - Target Sistemas</h2> -->
+<h2 align="center">Teste Técnico - Target Sistemas</h2>
 
 <h1 align="center">
     <img width="800px" alt="TargetSistemas" title="#TargetSistemas" src="https://github.com/freitasbr01/target-sistemas/blob/main/assets/layout.png" />
