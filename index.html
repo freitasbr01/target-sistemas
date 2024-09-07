@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Target Sistemas</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+  <link rel="icon" href="./assets/favicon.ico">
+  <link rel="manifest" href="./assets/site.webmanifest">
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <img class="logo" src="./assets/target-logo.png" alt="logo">
+      <h2>Teste Técnico</h2>
+      <h3>Cadidato: Alan Pereira de Freitas</h3>
+    </header>
+
+    <main>
+        <section class="container-question">
+          <p class="question">1) Observe o trecho de código abaixo:<br />
+            int INDICE = 13, SOMA = 0, K = 0; Enquanto K
+            < INDICE faça { K=K + 1; SOMA=SOMA + K; }<br /> <br />
+            Imprimir(SOMA);<br />
+            Ao final do processamento, qual será o valor da variável SOMA?
+          </p>
+          <button class="replay-button" id="button-one">Resposta</button>
+          <p class="replay" id="replay-one"></p>
+        </section>
+
+        <section class="container-question">
+          <p class="question">2) Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência.<br /><br />
+
+            IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
+          </p>
+          <button class="replay-button" id="button-two">Resposta</button>
+          <p class="replay" id="replay-two"></p>
+        </section>
+
+        <section class="container-question">
+          <p class="question">3) Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que desejar, que calcule e retorne: <br />
+            • O menor valor de faturamento ocorrido em um dia do mês; <br />
+            • O maior valor de faturamento ocorrido em um dia do mês; <br />
+            • Número de dias no mês em que o valor de faturamento diário foi superior à média mensal. <br /><br />
+
+            IMPORTANTE: <br />
+            a) Usar o json ou xml disponível como fonte dos dados do faturamento mensal; <br />
+            b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;
+          </p>
+          <button class="replay-button" id="button-three">Resposta</button>
+          <p class="replay" id="replay-three"></p>
+        </section>
+
+        <section class="container-question">
+          <p class="question">4) Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:<br />
+            • SP - R$67.836,43 <br />
+            • RJ - R$36.678,66 <br />
+            • MG - R$29.229,88 <br />
+            • ES - R$27.165,48 <br />
+            • Outros - R$19.849,53 <br /><br />
+            Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora.
+          </p>
+          <button class="replay-button" id="button-four">Resposta</button>
+          <p class="replay" id="replay-four"></p>
+        </section>
+
+        <section class="container-question">
+          <p class="question">5) Escreva um programa que inverta os caracteres de um string.<br /><br />
+
+            IMPORTANTE:<br />
+            a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;<br />
+            b) Evite usar funções prontas, como, por exemplo, reverse;
+          </p>
+          <button class="replay-button" id="button-five">Resposta</button>
+          <p class="replay" id="replay-five"></p>
+        </section>
+    </main>
+
+    <script src="./js/question1.js"></script>
+    <script src="./js/question2.js"></script>
+    <script src="./js/question3.js"></script>
+    <script src="./js/question4.js"></script>
+    <script src="./js/question5.js"></script>
+  </div>
+</body>
+
+</html>
